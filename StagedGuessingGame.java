@@ -39,3 +39,13 @@ public class StagedGuessingGame {
 
         System.out.println("Congratulations! You have completed all 3 stages of the Guessing Game.");
     }
+    private static int generateSecretNumber(int maxRange) {
+        Random random = new Random();
+        return random.nextInt(maxRange) + 1;
+    }
+
+    private static int getGuessFromUser(Scanner scanner, int maxRange) {
+        System.out.print("Enter your guess (1-" + maxRange + "): ");
+        return scanner.nextInt();
+    }
+}
