@@ -45,6 +45,7 @@ public class StagedGuessingGame {
 	return random.nextInt(maxRange) +1;
     }
     privete steatic int generateSecretNumber(Scanner scanner, int maxRange){
-	System.out.print("Enter your guess(1-"maxRange + "):");		return scanner.nextInt();	
+	System.out.print("Enter your guess(1-"maxRange + "):");		
+	return scanner.nextInt();	
  	}
      
