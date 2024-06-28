@@ -18,4 +18,5 @@ If the player runs out of attempts in any stage, the game ends, and the secret n
 After completing all 3 stages, the player is congratulated on their success.
 
 
-mustafa hashim hussein ibrahim.
+mustafa hashim hussein ibrahim
+abdulrahman abdullah alsmadi .
