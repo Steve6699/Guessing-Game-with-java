@@ -5,8 +5,8 @@ public class StagedGuessingGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int currentStage = 1;
-        int maxAttempts = 1;
-        int maxRange = 150;
+        int maxAttempts = 10;
+        int maxRange = 100;
 
         while (currentStage <= 3) {
             System.out.println("Stage " + currentStage + " - Guess the secret number:");
